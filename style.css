@@ -1,0 +1,84 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Full-screen Landing Section */
+  .landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    overflow: hidden;
+    position: relative;
+    color: #ffffff;
+    padding: 20px; /* Added padding for small screens */
+  }
+  
+  /* Content Styling */
+  .content {
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 3s ease forwards;
+  }
+  
+  .welcome-text {
+    font-size: 3em;
+    font-weight: bold;
+    animation: slideIn 2s ease forwards;
+  }
+  
+  .subtitle {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #fff7f7;
+    opacity: 0;
+    animation: fadeInText 3s ease forwards 1s;
+  }
+  
+  /* Animations */
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInText {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 600px) {
+    .welcome-text {
+      font-size: 2em; /* Smaller font size for smaller screens */
+    }
+  
+    .subtitle {
+      font-size: 1.2em; /* Adjust subtitle font size */
+    }
+  
+    .landing {
+      padding: 10px; /* Add padding on mobile for spacing */
+    }
+  }
