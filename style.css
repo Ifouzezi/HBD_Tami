@@ -36,7 +36,7 @@
     z-index: 1;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
-    border: 5px double rgb(253, 81, 50);
+    border: 5px dashed rgb(253, 81, 50);
   }
 
   .video-overlay {
@@ -86,7 +86,7 @@
   .subtitle {
     font-size: 1.5em;
     margin-top: 10px;
-    color: #fff7f7;
+    color: wheat;
     opacity: 0;
     animation: fadeInText 3s ease forwards 1s;
   }
@@ -144,6 +144,31 @@
     transform: translateY(0); /* Original position */
   }
   
+  .container {
+    text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: wheat;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.footer {
+  background-color: inherit; /* Black background */
+  color: inherit; /* Accent color */
+  text-align: center; /* Centered text */
+  padding: 20px 0; /* Top and bottom padding */
+  position: relative; /* Ensure it's positioned relative */
+  bottom: 0; /* Aligns the footer to the bottom of the page */
+  width: 100%; /* Full width */
+  font-size: 14px; /* Font size */
+}
+
+.footer p {
+  margin: 5px 0; /* Margin for paragraphs */
+}
+
   
   /* Mobile Responsiveness */
   @media (max-width: 600px) {
