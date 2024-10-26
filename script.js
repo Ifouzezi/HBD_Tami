@@ -84,14 +84,14 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   const texts = [
-    "Baddie",
-    "COO",
-    "Career Lady",
-    "Legend",
-    "Fried Yam Eater",
-    "Money Maker",
-    "LOML",
-    "Mine"
+  "Baddie",
+  "COO",
+  "Career Lady",
+  "Legend",
+  "Fried Yam Eater",
+  "Money Maker",
+  "LOML",
+  "Mine"
 ];
 
 let currentIndex = 0;
