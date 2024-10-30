@@ -85,12 +85,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const texts = [
   "Baddie",
+  "Not-So-Baddie",
   "COO",
   "Career Lady",
   "Legend",
-  "Fried Yam Eater",
+  "Fried Yam Lover and Eater",
   "Money Maker",
   "LOML",
+  "Lover of Pepper that SLAPS!",
   "Mine"
 ];
 
