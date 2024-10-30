@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentVideoIndex = 0;
 
   // Set playback speed for slow effect
-  videoElement.playbackRate = 0.01; 
+  videoElement.playbackRate = 0.0625; // Slowest supported speed in Chrome
 
   function changeVideo() {
     currentVideoIndex = (currentVideoIndex + 1) % videoPaths.length;
