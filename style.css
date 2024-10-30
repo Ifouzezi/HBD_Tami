@@ -170,7 +170,7 @@ h1 {
   position: relative; /* Ensure it's positioned relative */
   bottom: 0; /* Aligns the footer to the bottom of the page */
   width: 100%; /* Full width */
-  font-size: 14px; /* Font size */
+  font-size: 1.2rem; /* Font size */
 }
 
 .footer p {
