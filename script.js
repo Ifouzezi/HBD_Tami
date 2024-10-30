@@ -89,10 +89,9 @@ document.addEventListener('DOMContentLoaded', () => {
   "COO",
   "Career Lady",
   "Legend",
-  "Fried Yam Lover and Eater",
+  "Fried Yam Lover",
   "Money Maker",
   "LOML",
-  "Lover of Pepper that SLAPS!",
   "Mine"
 ];
 
