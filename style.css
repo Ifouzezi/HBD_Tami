@@ -229,25 +229,27 @@ h1 {
     }
 
     .celeb__content {
+      position: relative;
+      bottom: 208px;
       text-align: left;
     }
 
     .bday{
       position: relative;
-      left: -32px;
-      bottom: -443px;
+      left: 131px;
+      bottom: -519px;
     }
 
     .b_day{
       position: relative;
-      left: 166px;
+      left: 21%;
       bottom: -866px;
     }
 
     .b-day{
       position: relative;
-      right: -33px;
-      bottom: -22px;
+      right: -225px;
+      bottom: 106px;
     }
 
 
