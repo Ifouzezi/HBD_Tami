@@ -235,6 +235,7 @@ h1 {
     }
 
     .bday{
+      display: block;
       position: relative;
       left: 131px;
       bottom: -519px;
