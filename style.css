@@ -228,6 +228,10 @@ h1 {
       width: 98vw;
     }
 
+    .celebration {
+      height: 100%;
+    }
+
     .celeb__content {
       position: relative;
       bottom: 208px;
