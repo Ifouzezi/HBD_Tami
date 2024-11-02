@@ -122,6 +122,24 @@
     transition: opacity 0.6s ease, transform 0.6s ease; /* Smooth transition */
   }
 
+  .bday {
+    position: absolute;
+    left: 166px;
+    bottom: -484px;
+  }
+
+  .b_day {
+    position: absolute;
+    right: 166px;
+    bottom: -188px;
+  }
+
+  .b-day {
+    position: absolute;
+    right: -33px;
+    bottom: -700px;
+  }
+
   .celebration-title {
     font-size: 2rem;
   }
@@ -200,4 +218,24 @@ h1 {
     .celeb__content {
       text-align: left;
     }
+
+    .bday{
+      position: absolute;
+      left: -32px;
+      bottom: -443px;
+    }
+
+    .b_day{
+      position: absolute;
+      left: 166px;
+      bottom: -866px;
+    }
+
+    .b-day{
+      position: absolute;
+      right: -33px;
+      bottom: -22px;
+    }
+
+
   }
