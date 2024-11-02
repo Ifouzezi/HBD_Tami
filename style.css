@@ -243,8 +243,8 @@ h1 {
 
     .b_day{
       position: relative;
-      left: 19%;
-    top: 83%;
+      left: 21%;
+      bottom: -866px;
     }
 
     .b-day{
