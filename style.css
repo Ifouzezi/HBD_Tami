@@ -57,6 +57,7 @@
   
   
   /* Content Styling */
+
   .content {
     text-align: center;
     opacity: 0;
@@ -115,6 +116,11 @@
     }
   }
   
+  .celebration {
+    position: relative;
+    overflow: hidden;
+  }
+  
   .celeb__content {
     padding: 45px 30px;
     text-align: center;
@@ -122,22 +128,29 @@
     transition: opacity 0.6s ease, transform 0.6s ease; /* Smooth transition */
   }
 
+  .bday,
+  .b_day,
+  .b-day {
+    max-width: 100vw; /* Ensures it doesn't exceed the viewport width */
+    max-height: 50vh; /* Ensures it doesn't exceed half the viewport height */
+  }
+
   .bday {
-    position: absolute;
-    left: 166px;
-    bottom: -484px;
+    position: relative;
+    left: 440px;
+    bottom: -446px;
   }
 
   .b_day {
-    position: absolute;
+    position: relative;
     right: 166px;
-    bottom: -188px;
+    bottom: -103px;
   }
 
   .b-day {
-    position: absolute;
-    right: -33px;
-    bottom: -700px;
+    position: relative;
+    right: -514px;
+    bottom: -644px;
   }
 
   .celebration-title {
@@ -220,19 +233,19 @@ h1 {
     }
 
     .bday{
-      position: absolute;
+      position: relative;
       left: -32px;
       bottom: -443px;
     }
 
     .b_day{
-      position: absolute;
+      position: relative;
       left: 166px;
       bottom: -866px;
     }
 
     .b-day{
-      position: absolute;
+      position: relative;
       right: -33px;
       bottom: -22px;
     }
